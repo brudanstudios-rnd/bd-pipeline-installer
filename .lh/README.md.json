@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1665568543837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1665568543837,
+            "name": "Commit-0",
+            "content": "# bd-pipeline-installer\r\nA set of BD Pipeline  installer scripts.\r\n\r\n## Usage\r\n```PowerShell\r\ninstaller.cmd\r\n```"
+        }
+    ]
+}
