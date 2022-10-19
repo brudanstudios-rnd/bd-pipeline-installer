@@ -106,9 +106,8 @@ $shortcut = $wscript_obj.CreateShortcut("$env:USERPROFILE\Desktop\bd-activate.ln
 $shortcut.TargetPath = "$env:PIPELINE_ROOT\activate.bat"
 $shortcut.WorkingDirectory = $env:PIPELINE_ROOT
 $shortcut.IconLocation = $icon_path
-$shortcut.Save()
+$shortcut.Save() | Out-Null
 
-[Environment]::SetEnvironmentVariable
 [Console]::ForegroundColor = 'green'
 [Console]::WriteLine("Successfuly installed BD Remote Pipeline.")
 [Console]::ResetColor()
